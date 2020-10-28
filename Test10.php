@@ -1,15 +1,15 @@
 <?php
-echo strlen("Hello world!"); // outputs 12
+echo strlen("Hello world!<br>"); // outputs 12
 ?>
 <?php
-echo str_word_count("Hello world!"); // outputs 2
+echo str_word_count("Hello world!<br>"); // outputs 2
 ?>
 <?php
-echo strrev("Hello world!"); // outputs !dlrow olleH
+echo strrev("Hello world!<br>"); // outputs !dlrow olleH
 ?>
 <?php
-echo strpos("Hello world!", "world"); // outputs 6
+echo strpos("Hello world!", "world")."<br>"; // outputs 6
 ?>
 <?php
-echo str_replace("world", "Dolly", "Hello world!"); // outputs Hello Dolly!
+echo str_replace("world", "Dolly", "Hello world!")."<br>"; // outputs Hello Dolly!
 ?>
