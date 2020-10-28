@@ -1,11 +1,11 @@
 <?php
-$t = date("H");
+$t = 55;
 
-if ($t < "10") {
-    echo "Have a good morning!";
-} elseif ($t < "20") {
-    echo "Have a good day!";
+if ($t < 40) {
+    echo "Fail!";
+} elseif ($t < 80) {
+    echo "Pass!";
 } else {
-    echo "Have a good night!";
+    echo "Pass with distinction!";
 }
 ?>
