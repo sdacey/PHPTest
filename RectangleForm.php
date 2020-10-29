@@ -1,5 +1,4 @@
-<form>
-    <form action="calculateGet.php" method="GET">
+<form action="calculateGet.php" method="GET">
     <p>
         Width: <input type="text" name = "width">
     </p>
