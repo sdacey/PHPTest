@@ -1,6 +1,6 @@
 <?php
 $cars = array("Volvo", "BMW", "Toyota", "Mercedes", "Audi");
-$cars.sort();
+sort($cars);
 foreach ($cars as $value) {
     echo "I like " . $value." <br>";
         }
