@@ -1,10 +1,14 @@
 <?php
 echo "<h1>Creating Functions</h1>";
-echo "About to call the function... <br>";
-echo "Calling the function... <br>";
+echo "About to call the functions... <br>";
+echo "Calling the functions... <br>";
 display();
+echo "<br>";
 displayMessage("Hello there");
+echo "<br>";
 displaygreeting("Hello ", "Stanley");
+echo "<br>";
+echo "Have called the functions.<br>";
 
 function display(){
     echo "this text is displayed by the function";
