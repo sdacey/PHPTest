@@ -1,7 +1,7 @@
 <?php
 echo "<h1>Functions with Arrays</h1>";
 $marks = array(80, 90, 40, 60, 70, 75, 50, 79);
-$sum = sum(marks);
+$sum = sum($marks);
 echo "The sum is ".$sum;
 
 function sum($array){
