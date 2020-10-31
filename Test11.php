@@ -4,5 +4,5 @@ sort($cars);
 foreach ($cars as $value) {
     echo "I like " . $value." <br>";
         }
-echo sizeof($cars);
+echo sizeof($cars); // output number of elements in the array
 ?>
