@@ -6,7 +6,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="73dfe5b8-5c50-47fb-ac39-5db10300a9f0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/functionSum.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -57,7 +56,7 @@
       <workItem from="1603870845805" duration="2787000" />
       <workItem from="1603913247392" duration="12374000" />
       <workItem from="1604003189267" duration="16451000" />
-      <workItem from="1604177559718" duration="4243000" />
+      <workItem from="1604177559718" duration="5714000" />
     </task>
     <servers />
   </component>
