@@ -1,7 +1,7 @@
 <?php
 echo "<h1>Write an Array to a File</h1>";
-$bands = array("Black Sabbath", "Blue Oyster Cult", "Blues Explosion", "White Stripes", "Black Seeds", "Black Keys", "Led Zeppelin", "Rush" );
-$file = fopen("BandsText.txt", "w") ;
+$bands = array("Black Sabbath1", "Blue Oyster Cult", "Blues Explosion", "White Stripes", "Black Seeds", "Black Keys", "Led Zeppelin", "Rush" );
+$file = fopen("BandsText.txt", "a") ;
 foreach ($bands as $value) {
     echo "Writing " . $value." <br>";
     $text = $value."\n";
