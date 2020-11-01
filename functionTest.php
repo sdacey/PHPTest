@@ -6,7 +6,8 @@ display();
 echo "<br>";
 displayMessage("Hello there");
 echo "<br>";
-displaygreeting("Hello ", "Stanley");
+displayMessage("Good Morning");
+echo "<br>";displaygreeting("Hello ", "Stanley");
 echo "<br>";
 echo "Have called the functions.<br>";
 
