@@ -2,7 +2,7 @@
 echo "<h1>Functions with Arrays</h1>";
 $results = array(80, 90, 40, 60, 70, 75, 50, 79);
 $sum = sum($results);
-echo "The sum is ".$sum;
+echo "The sum is ".$sum."<br>";
 foreach ($results as $value) {
     echo "The result is ".$value."<br>";
 }
