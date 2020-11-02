@@ -16,7 +16,7 @@ function sum($array){
         $array[$x] = 0;
     }
     foreach ($array as $value) {
-        echo "Function value: ".$value;
+        echo "Function value: ".$value."<br>";
     }
     return $total;
 }
